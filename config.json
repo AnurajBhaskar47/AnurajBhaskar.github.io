@@ -6,10 +6,10 @@
   "sort": "created",
   "order": "asc",
   "includeFork": false,
-  "theme": "light.css",
+  "theme": "dark.css",
   "types": [
    "all"
   ],
-  "linkedin": "https://www.linkedin.com/in/anuraj-bhaskar-92ba73152/"
+  "linkedin": "anuraj-bhaskar-92ba73152"
  }
 ]
