@@ -9,8 +9,13 @@
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
   <link rel="icon" href="https://avatars.githubusercontent.com/u/97795939?v=4" type="image/png"></head>
-
+  <script src="./navbar.js"></script>
   <body>
+  <div id="navbar">
+    <a href="#About">About</a>
+    <a href="#Projects">Projects</a>
+    <a href="#Contact">Contact</a>
+  </div>
     <div id="loading">
       <div id="spinner"></div>
     </div>
@@ -215,17 +220,28 @@
                         </section>
                         </a></div>
       </div>
-      <div id="forks" style="display:none;">
-        <h1>Forks.</h1>
-        <div class="projects" id="forks_section"></div>
-      </div>
-      <div id="blog_section">
-        <h1>Blog.</h1>
-        <div id="blogs"></div>
-      </div>
-      <div id="footer">
-        <a href="https://github.com/AnurajBhaskar47" target="_blank">made on earth by a human</a>
-      </div>
+      <br><br><br>
+      <div class="contact">
+        <h2 id="Contact">
+          Contact
+        </h2>
+        <h4 id="mail">My inbox is always open. Whether you have a question or just want to say<br> hello,
+          I'll try my best to get back to you! Feel free to mail me about any<br> relevant job updates.</h4>
+          <br>
+          <button class="button"><a id="mail_me" href="mailto:bhaskar25903@gmail.com">Mail me</a></button>
+        </div>
+        <br><br>
+        <div id="forks" style="display:none;">
+          <h1>Forks.</h1>
+          <div class="projects" id="forks_section"></div>
+        </div>
+        <div id="blog_section">
+          <h1>Blog.</h1>
+          <div id="blogs"></div>
+        </div>
+        <div id="footer">
+          <a href="https://github.com/AnurajBhaskar47" target="_blank">Made on earth by a human with a coffee.</a>
+        </div>
     </div>
     <script type="text/javascript">
       setTimeout(function() {
